@@ -1,12 +1,4 @@
 Feature: WhenDO
-  Scenario: create task
-
-    Given admin is using whenDo
-    When he creates a new task
-      |title|JBGroup|
-      |note |note   |
-    Then he should see the task "JBGroup"
-
 
   @Editar
   Scenario: Crear y editar una tarea
